@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Choose an animal</h1>
-      <h4 className={styles.subtitle}>Shh! Don't tell it to anybody</h4>
+      <h4 className={styles.subtitle}>Shh! Don't tell anyone</h4>
       <div className={styles.cardsContainer}>
         {animals.map((animal, index) => (
           <AnimalCard animal={animal} index={index} key={animal.name} />
